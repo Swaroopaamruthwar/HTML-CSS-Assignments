@@ -1,7 +1,26 @@
 /* Our CSS file. */
-
-
 .container, .content {
 width: 100%;
 height: 100%;
+}
+h1{
+    text-align:center;
+    border-bottom-left-radius:30px;
+}
+#heading{
+    bottom:100%
+}
+.row,.col{
+    display:inline-block;
+    width:100%
+    
+}
+.col{
+    background-color:white;
+    width:35%;
+    margin:50px
+}
+img{
+   width:300px;
+   height:300px;
 }
