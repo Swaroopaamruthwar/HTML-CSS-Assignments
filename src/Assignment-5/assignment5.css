@@ -1,7 +1,58 @@
-/* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
-height: 100%;
+*{
+    margin:0;
+    padding:0;
 }
+#container{
+    display: flex;
+    align-items: center;
+    flex-flow:column wrap;
+    /* display: -webkit-flex; */
+    width:100%;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  
+}
+.card{
+    display:flex;
+    flex: 1 0 auto;
+    display: -webkit-flex;		
+    -webkit-flex: 1 0 auto;
+    flex-flow:row wrap;
+}
+.card-content{
+         display:flex;
+         flex: 1 0 auto;
+         display: -webkit-flex;
+         width:50%;
+         justify-content:center;
+
+}
+.content{
+    background-color: rgb(109, 209, 9);
+}
+.text{
+    display:flex;
+    flex: 1 0 auto;
+    flex-flow:column wrap;
+    justify-content: space-evenly;
+}
+  p,h1{
+    padding: 2px 30px;
+    align-items:center;
+  }
+  a:hover {
+    background: rgb(71, 226, 71);
+    color: white;
+    cursor: pointer;
+  }
+  a{
+      text-decoration:none;
+      margin-top:30px;
+      background-color: chartreuse;
+      border-radius: 20px;
+      color:white;
+      padding:6px 22px;
+      
+  }
+
+
